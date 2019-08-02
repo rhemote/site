@@ -219,6 +219,7 @@ export default {
     margin: 0 auto;
     max-width: 860px;
     width: 100%;
+    padding-bottom: 35%;
     &.active {
       .phone {
         svg {
