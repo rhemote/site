@@ -201,16 +201,17 @@ export default {
       transform: rotateZ(210deg);
     }
     &.fourth {
-      top: 83px;
-      left: 348px;
+      top: 85px;
+      left: 350px;
       transform: rotateZ(-210deg);
     }
     svg {
       width: @connection-width;
       height: 10px;
       stroke-width: 5px;
-      stroke-dasharray: 5;
-      animation: dash .6s linear infinite;
+      stroke-dasharray: 5px;
+      stroke-dashoffset: 10px;
+      animation: dash .5s linear infinite;
     }
   }
 
@@ -281,7 +282,7 @@ export default {
 
   @keyframes dash {
     to {
-      stroke-dashoffset: -10;
+      stroke-dashoffset: 0;
     }
   }
 </style>
