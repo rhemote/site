@@ -1,6 +1,6 @@
-# rHEMote-site
+# rhemote-site
 
-This is the coming soon page for rHEMote.
+This is the coming soon page for rhemote.
 🚧 Under development 🚧
 
 ## Project setup

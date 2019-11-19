@@ -1,6 +1,6 @@
 <template>
   <div>
-    <h1>rHEMote coming soon!</h1>
+    <h1>rhemote coming soon!</h1>
   </div>
 </template>
 

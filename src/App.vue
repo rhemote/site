@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <section>
-      <img alt="rHEMote logo" class="logo" src="./assets/logo.png">
+      <img alt="rhemote logo" class="logo" src="./assets/logo.png">
       <ComingSoon />
       <RemoteAnimation />
       <a @click="goToImprint" class="imprint-link" href="#">Imprint</a>
